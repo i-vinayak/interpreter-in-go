@@ -1,6 +1,8 @@
 package lexer
 
-import "github.com/i-vinayak/interpreter-in-go/src/internal/token"
+import (
+	"github.com/i-vinayak/interpreter-in-go/src/internal/token"
+)
 
 type Lexer struct {
 	source       string
